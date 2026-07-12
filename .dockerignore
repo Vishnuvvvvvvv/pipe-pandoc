@@ -1,0 +1,28 @@
+# Python virtual environment — never copy into image
+.venv/
+.uv_cache/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Heavy routers NOT needed in this pandoc-only image
+docx_pipeline_router.py
+markitdown_pipeline_router.py
+
+# Dev/test files
+test-docs/
+uploads/
+run.ps1
+
+# Env files (pass at runtime via --env-file)
+.env
+
+# Git / OS
+.git/
+.gitignore
+.DS_Store
+Thumbs.db
+
+# Other app entry points (not used in this image)
+test_router_app.py

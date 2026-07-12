@@ -1,0 +1,5662 @@
+{
+  "pandoc-api-version": [
+    1,
+    23,
+    1,
+    1
+  ],
+  "meta": {
+    "title": {
+      "t": "MetaInlines",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Sample"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Bullet"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "List"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Document"
+        }
+      ]
+    }
+  },
+  "blocks": [
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "This"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "document"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "contains"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "various"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "list"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "types"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "for"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "testing"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "list"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "detection,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "indentation"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "handling,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "list-to-HTML"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "conversion"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "document"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "processing"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "workflows."
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "basic-bulleted-list",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "1."
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Basic"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Bulleted"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "List"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "The"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "following"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "standard"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "bulleted"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "list:"
+        }
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "PDF"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "is"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "the"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "most"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "widely"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "used"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "document"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "format"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "worldwide."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "DOCX"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "is"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "the"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "default"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "format"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "for"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Microsoft"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Word"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "2007"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "and"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "later."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "RTF"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "provides"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "cross-platform"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "text"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "formatting"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "compatibility."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "TXT"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "is"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "the"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "simplest"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "document"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "format"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "with"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "no"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "formatting."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "ODT"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "is"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "the"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "open-source"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "OpenDocument"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Text"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "format."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "EPUB"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "is"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "designed"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "for"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "reflowable"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "electronic"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "publications."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "numbered-list",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "2."
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Numbered"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "List"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "A"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "step-by-step"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "numbered"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "list"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "for"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "sequential"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "instructions:"
+        }
+      ]
+    },
+    {
+      "t": "OrderedList",
+      "c": [
+        [
+          1,
+          {
+            "t": "Decimal"
+          },
+          {
+            "t": "Period"
+          }
+        ],
+        [
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Open"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "the"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "document"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "in"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "your"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "preferred"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "word"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "processor."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Review"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "the"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "formatting"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "and"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "structure"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "of"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "each"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "section."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Extract"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "the"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "text"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "content"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "using"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "a"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "document"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "parsing"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "library."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Validate"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "that"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "all"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "list"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "items"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "are"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "detected"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "and"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "properly"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "ordered."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Check"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "that"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "nested"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "lists"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "maintain"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "their"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "indentation"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "hierarchy."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Export"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "the"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "document"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "to"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "another"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "format"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "and"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "compare"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "the"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "output."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Run"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "automated"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "tests"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "to"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "verify"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "list"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "extraction"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "accuracy."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Document"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "any"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "formatting"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "differences"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "in"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "the"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "conversion"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "report."
+                }
+              ]
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "nested-bulleted-list",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "3."
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Nested"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Bulleted"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "List"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "A"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "multi-level"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "bulleted"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "list"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "demonstrating"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "hierarchy:"
+        }
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Document"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Formats"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Text-based"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "formats"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "TXT"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "\u2014"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Plain"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "text"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "with"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "no"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "formatting"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "CSV"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "\u2014"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Comma-separated"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "tabular"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "data"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Markdown"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "\u2014"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Lightweight"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "markup"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "for"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "documentation"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Rich"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "formats"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "DOCX"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "\u2014"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Microsoft"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Word"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "documents"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "PDF"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "\u2014"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Portable"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Document"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Format"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "RTF"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "\u2014"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Rich"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Text"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Format"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Presentation"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "formats"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "PPTX"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "\u2014"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Microsoft"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "PowerPoint"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "ODP"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "\u2014"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "OpenDocument"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Presentation"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Image"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Formats"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Raster"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "images"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "JPEG"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "\u2014"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Lossy"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "compression"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "for"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "photographs"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "PNG"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "\u2014"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Lossless"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "compression"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "with"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "transparency"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "WebP"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "\u2014"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Modern"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "web-optimized"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "format"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Vector"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "images"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "SVG"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "\u2014"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Scalable"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Vector"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Graphics"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "for"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "web"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "EPS"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "\u2014"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Encapsulated"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "PostScript"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "for"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "print"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "nested-numbered-list",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "4."
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Nested"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Numbered"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "List"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "A"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "multi-level"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "numbered"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "list"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "for"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "structured"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "procedures:"
+        }
+      ]
+    },
+    {
+      "t": "OrderedList",
+      "c": [
+        [
+          9,
+          {
+            "t": "Decimal"
+          },
+          {
+            "t": "Period"
+          }
+        ],
+        [
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Prepare"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "the"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "development"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "environment"
+                }
+              ]
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "t": "OrderedList",
+      "c": [
+        [
+          1,
+          {
+            "t": "Decimal"
+          },
+          {
+            "t": "Period"
+          }
+        ],
+        [
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Install"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "the"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "required"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "programming"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "language"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "runtime"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Install"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "the"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "document"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "processing"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "library"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Create"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "a"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "new"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "project"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "directory"
+                }
+              ]
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "t": "OrderedList",
+      "c": [
+        [
+          10,
+          {
+            "t": "Decimal"
+          },
+          {
+            "t": "Period"
+          }
+        ],
+        [
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Load"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "and"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "parse"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "the"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "document"
+                }
+              ]
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "t": "OrderedList",
+      "c": [
+        [
+          4,
+          {
+            "t": "Decimal"
+          },
+          {
+            "t": "Period"
+          }
+        ],
+        [
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Open"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "the"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "DOCX"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "file"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "using"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "the"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "library"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "API"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Iterate"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "through"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "the"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "document"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "body"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "elements"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Identify"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "paragraphs,"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "tables,"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "and"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "other"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "content"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "types"
+                }
+              ]
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "t": "OrderedList",
+      "c": [
+        [
+          11,
+          {
+            "t": "Decimal"
+          },
+          {
+            "t": "Period"
+          }
+        ],
+        [
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Extract"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "and"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "process"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "content"
+                }
+              ]
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "t": "OrderedList",
+      "c": [
+        [
+          7,
+          {
+            "t": "Decimal"
+          },
+          {
+            "t": "Period"
+          }
+        ],
+        [
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Extract"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "text"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "from"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "each"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "paragraph"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Parse"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "tables"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "into"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "structured"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "data"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Extract"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "images"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "and"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "embedded"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "media"
+                }
+              ]
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "t": "OrderedList",
+      "c": [
+        [
+          12,
+          {
+            "t": "Decimal"
+          },
+          {
+            "t": "Period"
+          }
+        ],
+        [
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Validate"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "and"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "export"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "results"
+                }
+              ]
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "t": "OrderedList",
+      "c": [
+        [
+          10,
+          {
+            "t": "Decimal"
+          },
+          {
+            "t": "Period"
+          }
+        ],
+        [
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Compare"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "extracted"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "content"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "against"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "expected"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "output"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Generate"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "a"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "report"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "of"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "any"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "discrepancies"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Export"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "results"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "to"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "the"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "target"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "format"
+                }
+              ]
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "definition-style-list",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "5."
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Definition-Style"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "List"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "A"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "list"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "of"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "terms"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "their"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "definitions,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "commonly"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "found"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "glossaries"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "technical"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "documentation:"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "OOXML"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "(Office"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "Open"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "XML)"
+            }
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "\u2014"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "An"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "ISO/IEC"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "standard"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "(29500)"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "for"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "office"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "document"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "formats."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "DOCX,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "XLSX,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "PPTX"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "are"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "all"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "OOXML"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "formats."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "The"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "specification"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "defines"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "XML"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "schemas"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "used"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "represent"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "document"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "content,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "formatting,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "metadata."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "python-docx"
+            }
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "\u2014"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "A"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Python"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "library"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "for"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "creating"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "updating"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Microsoft"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Word"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "DOCX"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "files."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "It"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "provides"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "an"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "API"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "for"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "adding"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "paragraphs,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "tables,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "images,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "styles"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Word"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "documents"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "programmatically."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "Content"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "Control"
+            }
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "\u2014"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "An"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "interactive"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "element"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Word"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "document"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "that"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "provides"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "structured"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "region"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "for"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "user"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "input."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Content"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "controls"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "include"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "text"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "boxes,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "date"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "pickers,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "dropdown"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "lists,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "checkboxes."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "Document"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "Part"
+            }
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "\u2014"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "A"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "component"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "of"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "DOCX"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "file"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "package."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "DOCX"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "files"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "are"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "ZIP"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "archives"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "containing"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "multiple"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "XML"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "parts"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "including"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "main"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "document,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "styles,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "fonts,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "headers,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "footers,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "media"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "files."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "Style"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "Inheritance"
+            }
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "\u2014"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "The"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "mechanism"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "by"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "which"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "paragraph"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "character"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "styles"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "DOCX"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "document"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "inherit"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "properties"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "from"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "parent"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "styles."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Understanding"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "style"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "inheritance"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "essential"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "for"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "accurate"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "formatting"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "extraction."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "Run"
+            }
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "\u2014"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "A"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "contiguous"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "region"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "of"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "text"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "within"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "paragraph"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "that"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "shares"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "same"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "formatting"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "properties."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "A"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "single"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "paragraph"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "may"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "contain"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "multiple"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "runs"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "with"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "different"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "fonts,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "sizes,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "or"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "colors."
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "mixed-content-with-lists",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "6."
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Mixed"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Content"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "with"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Lists"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Real-world"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "documents"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "often"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "combine"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "prose"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "paragraphs"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "with"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "different"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "list"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "types."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "This"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "section"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "demonstrates"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "that"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "pattern:"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "When"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "processing"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "DOCX"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "files"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "programmatically,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "there"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "are"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "several"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "key"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "challenges"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "be"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "aware"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "of:"
+        }
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "List"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "detection:"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Distinguishing"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "between"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "bulleted"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "lists,"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "numbered"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "lists,"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "and"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "indented"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "paragraphs"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "requires"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "inspection"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "of"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "the"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "paragraph's"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "numbering"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "properties."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Nesting"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "depth:"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Multi-level"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "lists"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "use"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "numbering"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "definition"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "references"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "that"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "map"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "abstract"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "numbering"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "IDs"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "to"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "concrete"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "level"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "formats."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Style"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "preservation:"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Converting"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "lists"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "to"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "HTML"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "or"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Markdown"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "requires"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "mapping"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Word's"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "list"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "styles"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "to"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "the"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "target"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "format's"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "list"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "syntax."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "The"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "following"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "numbered"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "steps"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "outline"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "recommended"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "approach"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "for"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "handling"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "these"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "challenges:"
+        }
+      ]
+    },
+    {
+      "t": "OrderedList",
+      "c": [
+        [
+          13,
+          {
+            "t": "Decimal"
+          },
+          {
+            "t": "Period"
+          }
+        ],
+        [
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Inspect"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "each"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "paragraph's"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "numbering"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "properties"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "to"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "determine"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "if"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "it"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "belongs"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "to"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "a"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "list."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Group"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "consecutive"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "list"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "paragraphs"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "by"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "their"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "numbering"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "ID"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "to"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "identify"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "list"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "boundaries."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Map"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "the"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "numbering"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "level"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "to"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "the"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "appropriate"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "output"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "format"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "(e.g.,"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "<ul>/<ol>"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "nesting"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "in"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "HTML)."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Preserve"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "any"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "inline"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "formatting"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "(bold,"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "italic,"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "hyperlinks)"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "within"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "list"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "items."
+                }
+              ]
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "By"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "following"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "this"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "approach,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "you"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "can"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "reliably"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "extract"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "convert"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "lists"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "from"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "DOCX"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "documents"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "while"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "maintaining"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "their"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "semantic"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "structure"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "visual"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "formatting."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6430 @@
+{
+  "pandoc-api-version": [
+    1,
+    23,
+    1,
+    1
+  ],
+  "meta": {
+    "title": {
+      "t": "MetaInlines",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Enterprise"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Document"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Parser"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "\u2014"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Test"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Sample"
+        }
+      ]
+    }
+  },
+  "blocks": [
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Emph",
+          "c": [
+            {
+              "t": "Str",
+              "c": "Comprehensive"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "test"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "fixture"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "for"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "the"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "Anti-Gravity"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "DOCX"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "pipeline"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "introduction-and-overview",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "1."
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Introduction"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "and"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Overview"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "This"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "document"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "designed"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "test"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "every"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "structural"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "element"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "that"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Anti-Gravity"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "pipeline"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "expected"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "handle"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "faithfully."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "The"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "document"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "deliberately"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "includes"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "complex"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "layouts,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "merged-cell"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "tables,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "multiple"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "embedded"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "chart"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "images,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "plain"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "photograph"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "ensure"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "that"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "chart-heuristic"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "works"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "correctly."
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "Str",
+          "c": "The"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "pipeline"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "converts"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "this"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "document"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "through"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "following"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "stages:"
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "Str",
+          "c": "Docling"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "structural"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "parse"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "\u2192"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Table"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "extraction"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "\u2192"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Image"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "OCR"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "(Textract)"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "\u2192"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Chart"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "semantics"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "(Bedrock"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Nova"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Lite)"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "\u2192"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Markdown"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "+"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "JSON"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "output."
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "text-formatting-inline-styles",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "2."
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Text"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Formatting"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "&"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Inline"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Styles"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "Bold"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "text"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "Bold"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "text"
+            }
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "used"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "for"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "emphasis."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Emph",
+          "c": [
+            {
+              "t": "Str",
+              "c": "Italic"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "text"
+            }
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "used"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "for"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "definitions."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Underline",
+          "c": [
+            {
+              "t": "Str",
+              "c": "Underlined"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "text"
+            }
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "marks"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "important"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "terms."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Reading"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "order"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "across"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "multiple"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "paragraphs"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "tested"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "here."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "This"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "paragraph"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "comes"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "immediately"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "after"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "formatting"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "demo."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "The"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "pipeline"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "should"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "preserve"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "logical"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "sequence"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "of"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "all"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "text"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "blocks"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "when"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "converting"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Markdown."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "A"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "second"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "body"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "paragraph"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "follows."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Docling"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "preserves"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "reading"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "order"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "even"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "when"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "source"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "document"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "has"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "multi-column"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "or"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "text-box"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "layouts"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "by"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "analysing"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "structural"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "XML"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "rather"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "than"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "visual"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "flow."
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "ordered-list",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "2.1"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Ordered"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "List"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "OrderedList",
+      "c": [
+        [
+          1,
+          {
+            "t": "Decimal"
+          },
+          {
+            "t": "Period"
+          }
+        ],
+        [
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Parse"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "DOCX"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "with"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "Docling"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Extract"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "tables"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "\u2192"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "JSON"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Extract"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "images"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "\u2192"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "OCR"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Classify"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "charts"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "\u2192"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "Bedrock"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Para",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Emit"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "Markdown"
+                }
+              ]
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "bullet-list",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "2.2"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Bullet"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "List"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Multi-layout"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "DOCX"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "support"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Merged-cell"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "table"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "fidelity"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "OCR"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "via"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Amazon"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Textract"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "(managed,"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "no"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "local"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "binary)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Chart"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "classification"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "via"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "AWS"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Bedrock"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Nova"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Lite"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Reading-order"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "preservation"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Dual"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "JSON"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "output"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "(DOM"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "+"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "semantic"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "layers)"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "tables",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "3."
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Tables"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "simple-45-data-table",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "3.1"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Simple"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "4\u00d75"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Data"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Table"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "The"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "table"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "below"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "represents"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "sample"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "claims"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "summary"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "report."
+        }
+      ]
+    },
+    {
+      "t": "Table",
+      "c": [
+        [
+          "",
+          [],
+          []
+        ],
+        [
+          null,
+          []
+        ],
+        [
+          [
+            {
+              "t": "AlignDefault"
+            },
+            {
+              "t": "ColWidth",
+              "c": 0.25
+            }
+          ],
+          [
+            {
+              "t": "AlignDefault"
+            },
+            {
+              "t": "ColWidth",
+              "c": 0.25
+            }
+          ],
+          [
+            {
+              "t": "AlignDefault"
+            },
+            {
+              "t": "ColWidth",
+              "c": 0.25
+            }
+          ],
+          [
+            {
+              "t": "AlignDefault"
+            },
+            {
+              "t": "ColWidth",
+              "c": 0.25
+            }
+          ]
+        ],
+        [
+          [
+            "",
+            [],
+            []
+          ],
+          [
+            [
+              [
+                "",
+                [],
+                []
+              ],
+              [
+                [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  {
+                    "t": "AlignDefault"
+                  },
+                  1,
+                  1,
+                  [
+                    {
+                      "t": "Plain",
+                      "c": [
+                        {
+                          "t": "Strong",
+                          "c": [
+                            {
+                              "t": "Str",
+                              "c": "Claim"
+                            },
+                            {
+                              "t": "Space"
+                            },
+                            {
+                              "t": "Str",
+                              "c": "ID"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ],
+                [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  {
+                    "t": "AlignDefault"
+                  },
+                  1,
+                  1,
+                  [
+                    {
+                      "t": "Plain",
+                      "c": [
+                        {
+                          "t": "Strong",
+                          "c": [
+                            {
+                              "t": "Str",
+                              "c": "Policy"
+                            },
+                            {
+                              "t": "Space"
+                            },
+                            {
+                              "t": "Str",
+                              "c": "Holder"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ],
+                [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  {
+                    "t": "AlignDefault"
+                  },
+                  1,
+                  1,
+                  [
+                    {
+                      "t": "Plain",
+                      "c": [
+                        {
+                          "t": "Strong",
+                          "c": [
+                            {
+                              "t": "Str",
+                              "c": "Type"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ],
+                [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  {
+                    "t": "AlignDefault"
+                  },
+                  1,
+                  1,
+                  [
+                    {
+                      "t": "Plain",
+                      "c": [
+                        {
+                          "t": "Strong",
+                          "c": [
+                            {
+                              "t": "Str",
+                              "c": "Amount"
+                            },
+                            {
+                              "t": "Space"
+                            },
+                            {
+                              "t": "Str",
+                              "c": "(USD)"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "",
+              [],
+              []
+            ],
+            0,
+            [],
+            [
+              [
+                [
+                  "",
+                  [],
+                  []
+                ],
+                [
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "CLM-001"
+                          }
+                        ]
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "Alice"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "Johnson"
+                          }
+                        ]
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "Auto"
+                          }
+                        ]
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "$4,200"
+                          }
+                        ]
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              [
+                [
+                  "",
+                  [],
+                  []
+                ],
+                [
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "CLM-002"
+                          }
+                        ]
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "Bob"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "Smith"
+                          }
+                        ]
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "Health"
+                          }
+                        ]
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "$11,500"
+                          }
+                        ]
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              [
+                [
+                  "",
+                  [],
+                  []
+                ],
+                [
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "CLM-003"
+                          }
+                        ]
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "Carol"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "White"
+                          }
+                        ]
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "Property"
+                          }
+                        ]
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "$38,000"
+                          }
+                        ]
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              [
+                [
+                  "",
+                  [],
+                  []
+                ],
+                [
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "CLM-004"
+                          }
+                        ]
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "David"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "Lee"
+                          }
+                        ]
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "Life"
+                          }
+                        ]
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "$250,000"
+                          }
+                        ]
+                      }
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          [
+            "",
+            [],
+            []
+          ],
+          []
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "merged-cell-table-colspan-rowspan",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "3.2"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Merged-Cell"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Table"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "(colspan"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "+"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "rowspan)"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "This"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "table"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "tests"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "pipeline's"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "ability"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "preserve"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "merged"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "cells"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "raw_cells"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "output."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "The"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "first"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "two"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "cells"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "row"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "1"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "are"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "merged"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "horizontally;"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "first"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "cell"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "rows"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "2-3"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "merged"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "vertically."
+        }
+      ]
+    },
+    {
+      "t": "Table",
+      "c": [
+        [
+          "",
+          [],
+          []
+        ],
+        [
+          null,
+          []
+        ],
+        [
+          [
+            {
+              "t": "AlignDefault"
+            },
+            {
+              "t": "ColWidth",
+              "c": 0.3333333333333333
+            }
+          ],
+          [
+            {
+              "t": "AlignDefault"
+            },
+            {
+              "t": "ColWidth",
+              "c": 0.3333333333333333
+            }
+          ],
+          [
+            {
+              "t": "AlignDefault"
+            },
+            {
+              "t": "ColWidth",
+              "c": 0.3333333333333333
+            }
+          ]
+        ],
+        [
+          [
+            "",
+            [],
+            []
+          ],
+          [
+            [
+              [
+                "",
+                [],
+                []
+              ],
+              [
+                [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  {
+                    "t": "AlignDefault"
+                  },
+                  1,
+                  1,
+                  [
+                    {
+                      "t": "Plain",
+                      "c": [
+                        {
+                          "t": "Strong",
+                          "c": [
+                            {
+                              "t": "Str",
+                              "c": "Region"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ],
+                [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  {
+                    "t": "AlignDefault"
+                  },
+                  1,
+                  1,
+                  [
+                    {
+                      "t": "Plain",
+                      "c": [
+                        {
+                          "t": "Strong",
+                          "c": [
+                            {
+                              "t": "Str",
+                              "c": "Q1"
+                            },
+                            {
+                              "t": "Space"
+                            },
+                            {
+                              "t": "Str",
+                              "c": "Loss"
+                            },
+                            {
+                              "t": "Space"
+                            },
+                            {
+                              "t": "Str",
+                              "c": "Ratio"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ],
+                [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  {
+                    "t": "AlignDefault"
+                  },
+                  1,
+                  1,
+                  [
+                    {
+                      "t": "Plain",
+                      "c": [
+                        {
+                          "t": "Strong",
+                          "c": [
+                            {
+                              "t": "Str",
+                              "c": "Q2"
+                            },
+                            {
+                              "t": "Space"
+                            },
+                            {
+                              "t": "Str",
+                              "c": "Loss"
+                            },
+                            {
+                              "t": "Space"
+                            },
+                            {
+                              "t": "Str",
+                              "c": "Ratio"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "",
+              [],
+              []
+            ],
+            0,
+            [],
+            [
+              [
+                [
+                  "",
+                  [],
+                  []
+                ],
+                [
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    2,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "North"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "America"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "(merged"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "colspan)"
+                          }
+                        ]
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "67%"
+                          }
+                        ]
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              [
+                [
+                  "",
+                  [],
+                  []
+                ],
+                [
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    2,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "Europe"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "(merged"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "rowspan)"
+                          }
+                        ]
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "58%"
+                          }
+                        ]
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "61%"
+                          }
+                        ]
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              [
+                [
+                  "",
+                  [],
+                  []
+                ],
+                [
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "54%"
+                          }
+                        ]
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "59%"
+                          }
+                        ]
+                      }
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          [
+            "",
+            [],
+            []
+          ],
+          []
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "embedded-images-charts",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "4."
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Embedded"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Images"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "&"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Charts"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "bar-chart-quarterly-claims",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "4.1"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Bar"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Chart"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "\u2013"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Quarterly"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Claims"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "The"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "bar"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "chart"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "below"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "shows"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "number"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "of"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "claims"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "filed"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "per"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "quarter."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "The"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "pipeline"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "should"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "detect"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "this"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "as"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "chart"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "call"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Bedrock"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "for"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "semantic"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "extraction."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Image",
+          "c": [
+            [
+              "",
+              [],
+              [
+                [
+                  "width",
+                  "5.0in"
+                ],
+                [
+                  "height",
+                  "3.0in"
+                ]
+              ]
+            ],
+            [],
+            [
+              "media/image1.png",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Emph",
+          "c": [
+            {
+              "t": "Str",
+              "c": "Figure"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "1:"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "Quarterly"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "Claims"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "Count"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "line-chart-premium-vs-claims",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "4.2"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Line"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Chart"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "\u2013"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Premium"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "vs"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Claims"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "This"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "multi-series"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "line"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "chart"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "compares"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "monthly"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "premium"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "collected"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "against"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "claims"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "paid."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "The"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Bedrock"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "VLM"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "should"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "identify"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "this"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "as"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "line"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "chart"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "extract"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "two"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "data"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "series."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Image",
+          "c": [
+            [
+              "",
+              [],
+              [
+                [
+                  "width",
+                  "5.5in"
+                ],
+                [
+                  "height",
+                  "2.8285717410323707in"
+                ]
+              ]
+            ],
+            [],
+            [
+              "media/image2.png",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Emph",
+          "c": [
+            {
+              "t": "Str",
+              "c": "Figure"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "2:"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "Premium"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "vs"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "Claims"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "\u2014"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "FY"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "2025"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "pie-chart-portfolio-distribution",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "4.3"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Pie"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Chart"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "\u2013"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Portfolio"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Distribution"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "The"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "pie"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "chart"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "illustrates"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "portfolio"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "distribution"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "across"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "lines"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "of"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "business."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "The"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Bedrock"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "VLM"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "should"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "classify"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "this"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "as"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "pie"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "chart."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Image",
+          "c": [
+            [
+              "",
+              [],
+              [
+                [
+                  "width",
+                  "4.5in"
+                ],
+                [
+                  "height",
+                  "3.053571741032371in"
+                ]
+              ]
+            ],
+            [],
+            [
+              "media/image3.png",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Emph",
+          "c": [
+            {
+              "t": "Str",
+              "c": "Figure"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "3:"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "Portfolio"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "Distribution"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "by"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "LoB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "photograph-non-chart-image",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "4.4"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Photograph"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "\u2014"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Non-Chart"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Image"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "This"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "image"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "simulates"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "site"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "photograph"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "attached"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "property"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "claim."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "It"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "should"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "NOT"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "trigger"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Bedrock"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "VLM"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "call"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "because"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "it"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "does"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "not"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "look"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "like"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "chart"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "(too"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "few"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "OCR"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "tokens"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "or"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "wrong"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "heuristic"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "profile)."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Image",
+          "c": [
+            [
+              "",
+              [],
+              [
+                [
+                  "width",
+                  "4.0in"
+                ],
+                [
+                  "height",
+                  "2.6666666666666665in"
+                ]
+              ]
+            ],
+            [],
+            [
+              "media/image4.png",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Emph",
+          "c": [
+            {
+              "t": "Str",
+              "c": "Figure"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "4:"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "Site"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "Photograph"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "\u2014"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "Claim"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "#98421"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "multi-layout-reading-order",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "5."
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Multi-Layout"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "&"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Reading"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Order"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "This"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "section"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "tests"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "that"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "pipeline"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "correctly"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "preserves"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "reading"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "order"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "even"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "when"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "document"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "uses"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "multiple"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "heading"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "levels,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "nested"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "lists,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "sections"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "with"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "varying"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "indentation."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "The"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Docling"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "parser"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "operates"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "on"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "OOXML"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "structure"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "rather"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "than"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "rendered"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "page,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "so"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "reading"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "order"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "determined"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "by"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "element"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "position"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "XML"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "tree."
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "sub-section-alpha",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "5.1"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Sub-section"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Alpha"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Alpha"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "content"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "paragraph."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Lorem"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "ipsum"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "dolor"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "sit"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "amet,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "consectetur"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "adipiscing"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "elit."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Sed"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "do"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "eiusmod"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "tempor"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "incididunt"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "ut"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "labore"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "et"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "dolore"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "magna"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "aliqua."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Ut"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "enim"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "ad"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "minim"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "veniam,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "quis"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "nostrud"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "exercitation."
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "sub-section-beta",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "5.2"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Sub-section"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Beta"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Beta"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "content"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "paragraph."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Duis"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "aute"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "irure"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "dolor"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "reprehenderit"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "voluptate"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "velit"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "esse"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "cillum"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "dolore"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "eu"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "fugiat"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "nulla"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "pariatur."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Excepteur"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "sint"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "occaecat"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "cupidatat"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "non"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "proident,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "sunt"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "culpa"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "qui"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "officia"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "deserunt"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "mollit"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "anim"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "id"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "est"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "laborum."
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "nested-list",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "5.3"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Nested"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "List"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Coverage"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Exclusions"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Sub-item"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "A"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Sub-item"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "B"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Claim"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Procedures"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Sub-item"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "A"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Sub-item"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "B"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Premium"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Adjustments"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Sub-item"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "A"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Para",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Sub-item"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "B"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "summary-conclusions",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "6."
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Summary"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "&"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Conclusions"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "This"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "test"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "document"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "covers"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "full"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "breadth"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "of"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "features"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "supported"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "by"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Anti-Gravity"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "pipeline:"
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "Str",
+          "c": "\u2022"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Structural"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "text"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "(headings"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "H1\u2013H3,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "paragraphs)"
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "Str",
+          "c": "\u2022"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Inline"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "formatting"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "(bold,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "italic,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "underline)"
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "Str",
+          "c": "\u2022"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Ordered"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "unordered"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "lists"
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "Str",
+          "c": "\u2022"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Simple"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "data"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "tables"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "with"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "header"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "rows"
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "Str",
+          "c": "\u2022"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Merged-cell"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "tables"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "(colspan"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "rowspan)"
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "Str",
+          "c": "\u2022"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Embedded"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "chart"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "images"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "(bar,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "line,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "pie)"
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "Str",
+          "c": "\u2022"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Non-chart"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "images"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "(photo)"
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "Str",
+          "c": "\u2022"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Reading-order"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "across"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "multiple"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "sections"
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "Str",
+          "c": "After"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "processing,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "output"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "directory"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "should"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "contain:"
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "Str",
+          "c": "AntiGravity_Test/AntiGravity_Test.md"
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "Str",
+          "c": "AntiGravity_Test/AntiGravity_Test.dom.json"
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "Str",
+          "c": "AntiGravity_Test/AntiGravity_Test.semantic.json"
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "Str",
+          "c": "AntiGravity_Test/images/picture_0.png"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "(bar"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "chart)"
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "Str",
+          "c": "AntiGravity_Test/images/picture_1.png"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "(line"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "chart)"
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "Str",
+          "c": "AntiGravity_Test/images/picture_2.png"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "(pie"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "chart)"
+        },
+        {
+          "t": "LineBreak"
+        },
+        {
+          "t": "Str",
+          "c": "AntiGravity_Test/images/picture_3.png"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "(photo"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "\u2014"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "no"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "VLM)"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Generated"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "by"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "create_test_docx.py"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "|"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Anti-Gravity"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Pipeline"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Test"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Suite"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "|"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "v1.0"
+        }
+      ]
+    }
+  ]
+}

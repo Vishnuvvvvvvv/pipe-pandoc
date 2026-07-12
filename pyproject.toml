@@ -1,0 +1,17 @@
+[project]
+name = "docx-pipeline"
+version = "0.1.0"
+description = "DOCX to Markdown extraction pipeline"
+requires-python = ">=3.13"
+dependencies = [
+    "docling>=2.112.0",
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "python-multipart>=0.0.9",
+    "python-docx>=1.1.0",
+    "markitdown[all]>=0.1.0",
+    "pypandoc>=1.13",
+    "boto3>=1.35.0",
+    "pillow>=10.0.0",
+    "python-dotenv>=1.0.0",
+]

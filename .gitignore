@@ -1,0 +1,34 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+.venv/
+.uv_cache/
+__pycache__/
+*.py[cod]          # .pyc .pyo .pyd compiled files
+*.pycache          # (your original entry — kept for safety)
+
+# ── Environment & Secrets ─────────────────────────────────────────────────────
+.env               # AWS keys — NEVER commit this
+.env.*             # any .env.local, .env.prod etc.
+!.env-example      # but DO commit the example template
+
+# ── App output (runtime generated) ───────────────────────────────────────────
+uploads/           # processed .md / .json files
+output/            # any other output folder
+
+# ── Test & Dev files ──────────────────────────────────────────────────────────
+test-docs/         # sample DOCX files used for testing
+*.log              # log files
+last_job_id.txt    # dev scratch files
+last_jobs.txt
+debug_out*.txt
+sampel.md
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+# (Dockerfile itself SHOULD be committed — it's part of your project)
+# docker-compose.yml is deleted, nothing to ignore here
+
+# ── IDE & OS ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
