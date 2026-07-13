@@ -1,0 +1,763 @@
+{
+  "document": "7b666b60-7f0e-430c-97cf-6f17ef39a441.docx",
+  "schema_version": "1.0",
+  "num_pages": "<bound method DoclingDocument.num_pages of DoclingDocument(schema_name='DoclingDocument', version='1.10.0', name='7b666b60-7f0e-430c-97cf-6f17ef39a441', origin=DocumentOrigin(mimetype='application/vnd.openxmlformats-officedocument.wordprocessingml.document', binary_hash=17604598306196069445, filename='7b666b60-7f0e-430c-97cf-6f17ef39a441.docx', uri=None), furniture=GroupItem(self_ref='#/furniture', parent=None, children=[], content_layer=<ContentLayer.FURNITURE: 'furniture'>, meta=None, name='_root_', label=<GroupLabel.UNSPECIFIED: 'unspecified'>), body=GroupItem(self_ref='#/body', parent=None, children=[RefItem(cref='#/groups/0')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='_root_', label=<GroupLabel.UNSPECIFIED: 'unspecified'>), groups=[GroupItem(self_ref='#/groups/0', parent=RefItem(cref='#/body'), children=[RefItem(cref='#/texts/0')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='header-0', label=<GroupLabel.SECTION: 'section'>), GroupItem(self_ref='#/groups/1', parent=RefItem(cref='#/texts/2'), children=[RefItem(cref='#/texts/3'), RefItem(cref='#/texts/9')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='header-3', label=<GroupLabel.SECTION: 'section'>), ListGroup(self_ref='#/groups/2', parent=RefItem(cref='#/texts/3'), children=[RefItem(cref='#/texts/4'), RefItem(cref='#/texts/5'), RefItem(cref='#/texts/6'), RefItem(cref='#/texts/7')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='list', label=<GroupLabel.LIST: 'list'>), ListGroup(self_ref='#/groups/3', parent=RefItem(cref='#/texts/9'), children=[RefItem(cref='#/texts/10'), RefItem(cref='#/groups/4'), RefItem(cref='#/texts/14'), RefItem(cref='#/groups/5'), RefItem(cref='#/texts/19'), RefItem(cref='#/groups/6')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='list', label=<GroupLabel.LIST: 'list'>), ListGroup(self_ref='#/groups/4', parent=RefItem(cref='#/groups/3'), children=[RefItem(cref='#/texts/11'), RefItem(cref='#/texts/12'), RefItem(cref='#/texts/13')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='list', label=<GroupLabel.LIST: 'list'>), ListGroup(self_ref='#/groups/5', parent=RefItem(cref='#/groups/3'), children=[RefItem(cref='#/texts/15'), RefItem(cref='#/texts/16'), RefItem(cref='#/texts/17'), RefItem(cref='#/texts/18')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='list', label=<GroupLabel.LIST: 'list'>), ListGroup(self_ref='#/groups/6', parent=RefItem(cref='#/groups/3'), children=[RefItem(cref='#/texts/20'), RefItem(cref='#/texts/21'), RefItem(cref='#/texts/22')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='list', label=<GroupLabel.LIST: 'list'>), ListGroup(self_ref='#/groups/7', parent=RefItem(cref='#/texts/24'), children=[RefItem(cref='#/texts/26'), RefItem(cref='#/groups/8'), RefItem(cref='#/texts/29'), RefItem(cref='#/groups/9'), RefItem(cref='#/texts/33'), RefItem(cref='#/groups/10'), RefItem(cref='#/texts/36')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='list', label=<GroupLabel.LIST: 'list'>), ListGroup(self_ref='#/groups/8', parent=RefItem(cref='#/groups/7'), children=[RefItem(cref='#/texts/27'), RefItem(cref='#/texts/28')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='list', label=<GroupLabel.LIST: 'list'>), ListGroup(self_ref='#/groups/9', parent=RefItem(cref='#/groups/7'), children=[RefItem(cref='#/texts/30'), RefItem(cref='#/texts/31'), RefItem(cref='#/texts/32')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='list', label=<GroupLabel.LIST: 'list'>), ListGroup(self_ref='#/groups/10', parent=RefItem(cref='#/groups/7'), children=[RefItem(cref='#/texts/34'), RefItem(cref='#/texts/35')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='list', label=<GroupLabel.LIST: 'list'>), GroupItem(self_ref='#/groups/11', parent=RefItem(cref='#/tables/0'), children=[RefItem(cref='#/texts/40')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='rich_cell_group_1_0_0', label=<GroupLabel.UNSPECIFIED: 'unspecified'>), GroupItem(self_ref='#/groups/12', parent=RefItem(cref='#/tables/0'), children=[RefItem(cref='#/texts/41')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='rich_cell_group_1_1_0', label=<GroupLabel.UNSPECIFIED: 'unspecified'>), GroupItem(self_ref='#/groups/13', parent=RefItem(cref='#/tables/0'), children=[RefItem(cref='#/texts/42')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='rich_cell_group_1_2_0', label=<GroupLabel.UNSPECIFIED: 'unspecified'>), GroupItem(self_ref='#/groups/14', parent=RefItem(cref='#/tables/0'), children=[RefItem(cref='#/texts/43')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='rich_cell_group_1_3_0', label=<GroupLabel.UNSPECIFIED: 'unspecified'>), GroupItem(self_ref='#/groups/15', parent=RefItem(cref='#/tables/1'), children=[RefItem(cref='#/texts/47')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='rich_cell_group_2_0_0', label=<GroupLabel.UNSPECIFIED: 'unspecified'>), GroupItem(self_ref='#/groups/16', parent=RefItem(cref='#/tables/1'), children=[RefItem(cref='#/texts/48')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='rich_cell_group_2_2_0', label=<GroupLabel.UNSPECIFIED: 'unspecified'>), GroupItem(self_ref='#/groups/17', parent=RefItem(cref='#/tables/1'), children=[RefItem(cref='#/texts/49')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='rich_cell_group_2_3_0', label=<GroupLabel.UNSPECIFIED: 'unspecified'>), GroupItem(self_ref='#/groups/18', parent=RefItem(cref='#/tables/2'), children=[RefItem(cref='#/texts/53')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='rich_cell_group_3_0_0', label=<GroupLabel.UNSPECIFIED: 'unspecified'>), GroupItem(self_ref='#/groups/19', parent=RefItem(cref='#/tables/2'), children=[RefItem(cref='#/texts/54')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='rich_cell_group_3_1_0', label=<GroupLabel.UNSPECIFIED: 'unspecified'>), GroupItem(self_ref='#/groups/20', parent=RefItem(cref='#/tables/2'), children=[RefItem(cref='#/texts/55')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='rich_cell_group_3_2_0', label=<GroupLabel.UNSPECIFIED: 'unspecified'>), GroupItem(self_ref='#/groups/21', parent=RefItem(cref='#/tables/2'), children=[RefItem(cref='#/texts/56'), RefItem(cref='#/tables/3'), RefItem(cref='#/texts/57')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='rich_cell_group_4_1_1', label=<GroupLabel.UNSPECIFIED: 'unspecified'>), GroupItem(self_ref='#/groups/22', parent=RefItem(cref='#/tables/2'), children=[RefItem(cref='#/texts/58'), RefItem(cref='#/tables/4'), RefItem(cref='#/texts/59')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='rich_cell_group_5_1_2', label=<GroupLabel.UNSPECIFIED: 'unspecified'>), GroupItem(self_ref='#/groups/23', parent=RefItem(cref='#/tables/5'), children=[RefItem(cref='#/texts/63')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='rich_cell_group_6_0_0', label=<GroupLabel.UNSPECIFIED: 'unspecified'>), GroupItem(self_ref='#/groups/24', parent=RefItem(cref='#/tables/5'), children=[RefItem(cref='#/texts/64')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='rich_cell_group_6_1_0', label=<GroupLabel.UNSPECIFIED: 'unspecified'>), ListGroup(self_ref='#/groups/25', parent=RefItem(cref='#/groups/26'), children=[RefItem(cref='#/texts/66'), RefItem(cref='#/texts/67'), RefItem(cref='#/texts/68')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='list', label=<GroupLabel.LIST: 'list'>), GroupItem(self_ref='#/groups/26', parent=RefItem(cref='#/tables/5'), children=[RefItem(cref='#/texts/65'), RefItem(cref='#/groups/25')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='rich_cell_group_6_1_1', label=<GroupLabel.UNSPECIFIED: 'unspecified'>), ListGroup(self_ref='#/groups/27', parent=RefItem(cref='#/groups/28'), children=[RefItem(cref='#/texts/70'), RefItem(cref='#/texts/71'), RefItem(cref='#/texts/72'), RefItem(cref='#/texts/73')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='list', label=<GroupLabel.LIST: 'list'>), GroupItem(self_ref='#/groups/28', parent=RefItem(cref='#/tables/5'), children=[RefItem(cref='#/texts/69'), RefItem(cref='#/groups/27')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='rich_cell_group_6_1_2', label=<GroupLabel.UNSPECIFIED: 'unspecified'>), ListGroup(self_ref='#/groups/29', parent=RefItem(cref='#/texts/75'), children=[RefItem(cref='#/texts/77'), RefItem(cref='#/texts/78'), RefItem(cref='#/texts/79'), RefItem(cref='#/texts/80'), RefItem(cref='#/texts/81'), RefItem(cref='#/texts/82'), RefItem(cref='#/texts/83')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, name='list', label=<GroupLabel.LIST: 'list'>)], texts=[SectionHeaderItem(self_ref='#/texts/0', parent=RefItem(cref='#/groups/0'), children=[RefItem(cref='#/texts/1'), RefItem(cref='#/texts/2'), RefItem(cref='#/texts/24'), RefItem(cref='#/texts/38'), RefItem(cref='#/texts/45'), RefItem(cref='#/texts/51'), RefItem(cref='#/texts/61'), RefItem(cref='#/texts/75')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.SECTION_HEADER: 'section_header'>, prov=[], source=[], comments=[], orig='Complex Document Test', text='Complex Document Test', formatting=None, hyperlink=None, level=1), TextItem(self_ref='#/texts/1', parent=RefItem(cref='#/texts/0'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='This document is designed to test the Anti-Gravity extraction pipeline against a wide variety of Word features: bullet lists, nested lists, simple tables, merged-cell tables, and nested tables inside cells.', text='This document is designed to test the Anti-Gravity extraction pipeline against a wide variety of Word features: bullet lists, nested lists, simple tables, merged-cell tables, and nested tables inside cells.', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None), SectionHeaderItem(self_ref='#/texts/2', parent=RefItem(cref='#/texts/0'), children=[RefItem(cref='#/groups/1')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.SECTION_HEADER: 'section_header'>, prov=[], source=[], comments=[], orig='1. Bullet Lists', text='1. Bullet Lists', formatting=None, hyperlink=None, level=2), SectionHeaderItem(self_ref='#/texts/3', parent=RefItem(cref='#/groups/1'), children=[RefItem(cref='#/groups/2'), RefItem(cref='#/texts/8')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.SECTION_HEADER: 'section_header'>, prov=[], source=[], comments=[], orig='1.1 Simple bullet list', text='1.1 Simple bullet list', formatting=None, hyperlink=None, level=4), ListItem(self_ref='#/texts/4', parent=RefItem(cref='#/groups/2'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Alpha item', text='Alpha item', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/5', parent=RefItem(cref='#/groups/2'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Beta item', text='Beta item', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/6', parent=RefItem(cref='#/groups/2'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Gamma item', text='Gamma item', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/7', parent=RefItem(cref='#/groups/2'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Delta item', text='Delta item', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), TextItem(self_ref='#/texts/8', parent=RefItem(cref='#/texts/3'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='', text='', formatting=None, hyperlink=None), SectionHeaderItem(self_ref='#/texts/9', parent=RefItem(cref='#/groups/1'), children=[RefItem(cref='#/groups/3'), RefItem(cref='#/texts/23')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.SECTION_HEADER: 'section_header'>, prov=[], source=[], comments=[], orig='1.2 Nested bullet list', text='1.2 Nested bullet list', formatting=None, hyperlink=None, level=4), ListItem(self_ref='#/texts/10', parent=RefItem(cref='#/groups/3'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Frontend Technologies', text='Frontend Technologies', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/11', parent=RefItem(cref='#/groups/4'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='React.js', text='React.js', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/12', parent=RefItem(cref='#/groups/4'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Vite', text='Vite', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/13', parent=RefItem(cref='#/groups/4'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Vanilla CSS', text='Vanilla CSS', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/14', parent=RefItem(cref='#/groups/3'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Backend Technologies', text='Backend Technologies', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/15', parent=RefItem(cref='#/groups/5'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='FastAPI', text='FastAPI', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/16', parent=RefItem(cref='#/groups/5'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Docling', text='Docling', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/17', parent=RefItem(cref='#/groups/5'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Amazon Textract', text='Amazon Textract', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/18', parent=RefItem(cref='#/groups/5'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='AWS Bedrock Nova Lite', text='AWS Bedrock Nova Lite', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/19', parent=RefItem(cref='#/groups/3'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Infrastructure', text='Infrastructure', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/20', parent=RefItem(cref='#/groups/6'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Docker', text='Docker', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/21', parent=RefItem(cref='#/groups/6'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Kubernetes', text='Kubernetes', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/22', parent=RefItem(cref='#/groups/6'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='AWS ECS', text='AWS ECS', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), TextItem(self_ref='#/texts/23', parent=RefItem(cref='#/texts/9'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='', text='', formatting=None, hyperlink=None), SectionHeaderItem(self_ref='#/texts/24', parent=RefItem(cref='#/texts/0'), children=[RefItem(cref='#/texts/25'), RefItem(cref='#/groups/7'), RefItem(cref='#/texts/37')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.SECTION_HEADER: 'section_header'>, prov=[], source=[], comments=[], orig='2. Numbered & Nested Lists', text='2. Numbered & Nested Lists', formatting=None, hyperlink=None, level=2), TextItem(self_ref='#/texts/25', parent=RefItem(cref='#/texts/24'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='Processing pipeline steps:', text='Processing pipeline steps:', formatting=Formatting(bold=True, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None), ListItem(self_ref='#/texts/26', parent=RefItem(cref='#/groups/7'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Upload DOCX via API', text='Upload DOCX via API', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/27', parent=RefItem(cref='#/groups/8'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Validate file extension', text='Validate file extension', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/28', parent=RefItem(cref='#/groups/8'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Save to staging folder', text='Save to staging folder', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/29', parent=RefItem(cref='#/groups/7'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Docling structural parse', text='Docling structural parse', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/30', parent=RefItem(cref='#/groups/9'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Extract text blocks', text='Extract text blocks', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/31', parent=RefItem(cref='#/groups/9'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Extract tables', text='Extract tables', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/32', parent=RefItem(cref='#/groups/9'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Extract embedded images', text='Extract embedded images', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/33', parent=RefItem(cref='#/groups/7'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='OCR + Chart Analysis', text='OCR + Chart Analysis', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/34', parent=RefItem(cref='#/groups/10'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Amazon Textract → raw text', text='Amazon Textract → raw text', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/35', parent=RefItem(cref='#/groups/10'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Bedrock Nova Lite → chart semantics', text='Bedrock Nova Lite → chart semantics', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/36', parent=RefItem(cref='#/groups/7'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Assemble Markdown + JSON output', text='Assemble Markdown + JSON output', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), TextItem(self_ref='#/texts/37', parent=RefItem(cref='#/texts/24'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='', text='', formatting=None, hyperlink=None), SectionHeaderItem(self_ref='#/texts/38', parent=RefItem(cref='#/texts/0'), children=[RefItem(cref='#/texts/39'), RefItem(cref='#/tables/0'), RefItem(cref='#/texts/44')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.SECTION_HEADER: 'section_header'>, prov=[], source=[], comments=[], orig='3. Simple Data Table', text='3. Simple Data Table', formatting=None, hyperlink=None, level=2), TextItem(self_ref='#/texts/39', parent=RefItem(cref='#/texts/38'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='A standard 5-row claims summary table with a header row.', text='A standard 5-row claims summary table with a header row.', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None), TextItem(self_ref='#/texts/40', parent=RefItem(cref='#/groups/11'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='Claim ID', text='Claim ID', formatting=Formatting(bold=True, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None), TextItem(self_ref='#/texts/41', parent=RefItem(cref='#/groups/12'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='Policy Holder', text='Policy Holder', formatting=Formatting(bold=True, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None), TextItem(self_ref='#/texts/42', parent=RefItem(cref='#/groups/13'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='Type', text='Type', formatting=Formatting(bold=True, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None), TextItem(self_ref='#/texts/43', parent=RefItem(cref='#/groups/14'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='Amount (USD)', text='Amount (USD)', formatting=Formatting(bold=True, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None), TextItem(self_ref='#/texts/44', parent=RefItem(cref='#/texts/38'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='', text='', formatting=None, hyperlink=None), SectionHeaderItem(self_ref='#/texts/45', parent=RefItem(cref='#/texts/0'), children=[RefItem(cref='#/texts/46'), RefItem(cref='#/tables/1'), RefItem(cref='#/texts/50')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.SECTION_HEADER: 'section_header'>, prov=[], source=[], comments=[], orig='4. Merged-Cell Table', text='4. Merged-Cell Table', formatting=None, hyperlink=None, level=2), TextItem(self_ref='#/texts/46', parent=RefItem(cref='#/texts/45'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='This table uses both colspan (horizontal merge) and rowspan (vertical merge).', text='This table uses both colspan (horizontal merge) and rowspan (vertical merge).', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None), TextItem(self_ref='#/texts/47', parent=RefItem(cref='#/groups/15'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='Region & Quarter', text='Region & Quarter', formatting=Formatting(bold=True, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None), TextItem(self_ref='#/texts/48', parent=RefItem(cref='#/groups/16'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='Q1 Loss %', text='Q1 Loss %', formatting=Formatting(bold=True, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None), TextItem(self_ref='#/texts/49', parent=RefItem(cref='#/groups/17'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='Q2 Loss %', text='Q2 Loss %', formatting=Formatting(bold=True, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None), TextItem(self_ref='#/texts/50', parent=RefItem(cref='#/texts/45'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='', text='', formatting=None, hyperlink=None), SectionHeaderItem(self_ref='#/texts/51', parent=RefItem(cref='#/texts/0'), children=[RefItem(cref='#/texts/52'), RefItem(cref='#/tables/2'), RefItem(cref='#/texts/60')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.SECTION_HEADER: 'section_header'>, prov=[], source=[], comments=[], orig='5. Table with Nested Table in a Cell', text='5. Table with Nested Table in a Cell', formatting=None, hyperlink=None, level=2), TextItem(self_ref='#/texts/52', parent=RefItem(cref='#/texts/51'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig=\"The 'Coverage Details' cell below contains a mini nested table listing coverage tiers and their limits.\", text=\"The 'Coverage Details' cell below contains a mini nested table listing coverage tiers and their limits.\", formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None), TextItem(self_ref='#/texts/53', parent=RefItem(cref='#/groups/18'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='Product', text='Product', formatting=Formatting(bold=True, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None), TextItem(self_ref='#/texts/54', parent=RefItem(cref='#/groups/19'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='Coverage Details', text='Coverage Details', formatting=Formatting(bold=True, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None), TextItem(self_ref='#/texts/55', parent=RefItem(cref='#/groups/20'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='Premium (Monthly)', text='Premium (Monthly)', formatting=Formatting(bold=True, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None), TextItem(self_ref='#/texts/56', parent=RefItem(cref='#/groups/21'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='', text='', formatting=None, hyperlink=None), TextItem(self_ref='#/texts/57', parent=RefItem(cref='#/groups/21'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='', text='', formatting=None, hyperlink=None), TextItem(self_ref='#/texts/58', parent=RefItem(cref='#/groups/22'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='', text='', formatting=None, hyperlink=None), TextItem(self_ref='#/texts/59', parent=RefItem(cref='#/groups/22'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='', text='', formatting=None, hyperlink=None), TextItem(self_ref='#/texts/60', parent=RefItem(cref='#/texts/51'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='', text='', formatting=None, hyperlink=None), SectionHeaderItem(self_ref='#/texts/61', parent=RefItem(cref='#/texts/0'), children=[RefItem(cref='#/texts/62'), RefItem(cref='#/tables/5'), RefItem(cref='#/texts/74')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.SECTION_HEADER: 'section_header'>, prov=[], source=[], comments=[], orig='6. Table with Bullet Points Inside Cells', text='6. Table with Bullet Points Inside Cells', formatting=None, hyperlink=None, level=2), TextItem(self_ref='#/texts/62', parent=RefItem(cref='#/texts/61'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig=\"Each cell in the 'Features' column contains a bullet list.\", text=\"Each cell in the 'Features' column contains a bullet list.\", formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None), TextItem(self_ref='#/texts/63', parent=RefItem(cref='#/groups/23'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='Plan', text='Plan', formatting=Formatting(bold=True, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None), TextItem(self_ref='#/texts/64', parent=RefItem(cref='#/groups/24'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='Key Features', text='Key Features', formatting=Formatting(bold=True, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None), TextItem(self_ref='#/texts/65', parent=RefItem(cref='#/groups/26'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='', text='', formatting=None, hyperlink=None), ListItem(self_ref='#/texts/66', parent=RefItem(cref='#/groups/25'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Hospital cover', text='Hospital cover', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/67', parent=RefItem(cref='#/groups/25'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='OPD included', text='OPD included', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/68', parent=RefItem(cref='#/groups/25'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='No waiting period', text='No waiting period', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), TextItem(self_ref='#/texts/69', parent=RefItem(cref='#/groups/28'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='', text='', formatting=None, hyperlink=None), ListItem(self_ref='#/texts/70', parent=RefItem(cref='#/groups/27'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='All Silver features', text='All Silver features', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/71', parent=RefItem(cref='#/groups/27'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Critical illness cover', text='Critical illness cover', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/72', parent=RefItem(cref='#/groups/27'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='International emergency', text='International emergency', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/73', parent=RefItem(cref='#/groups/27'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Annual health checkup', text='Annual health checkup', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), TextItem(self_ref='#/texts/74', parent=RefItem(cref='#/texts/61'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='', text='', formatting=None, hyperlink=None), SectionHeaderItem(self_ref='#/texts/75', parent=RefItem(cref='#/texts/0'), children=[RefItem(cref='#/texts/76'), RefItem(cref='#/groups/29'), RefItem(cref='#/texts/84'), RefItem(cref='#/texts/85')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.SECTION_HEADER: 'section_header'>, prov=[], source=[], comments=[], orig='7. Summary', text='7. Summary', formatting=None, hyperlink=None, level=2), TextItem(self_ref='#/texts/76', parent=RefItem(cref='#/texts/75'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='This document was generated to test every structural element the Anti-Gravity pipeline must handle:', text='This document was generated to test every structural element the Anti-Gravity pipeline must handle:', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None), ListItem(self_ref='#/texts/77', parent=RefItem(cref='#/groups/29'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Simple bullet list (top-level)', text='Simple bullet list (top-level)', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/78', parent=RefItem(cref='#/groups/29'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Nested bullet list (two levels)', text='Nested bullet list (two levels)', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/79', parent=RefItem(cref='#/groups/29'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Numbered list with sub-items', text='Numbered list with sub-items', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/80', parent=RefItem(cref='#/groups/29'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Simple data table (5 rows × 4 cols)', text='Simple data table (5 rows × 4 cols)', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/81', parent=RefItem(cref='#/groups/29'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Merged-cell table (colspan + rowspan)', text='Merged-cell table (colspan + rowspan)', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/82', parent=RefItem(cref='#/groups/29'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Table with nested mini-table inside a cell', text='Table with nested mini-table inside a cell', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), ListItem(self_ref='#/texts/83', parent=RefItem(cref='#/groups/29'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.LIST_ITEM: 'list_item'>, prov=[], source=[], comments=[], orig='Table with bullet list items inside cells', text='Table with bullet list items inside cells', formatting=Formatting(bold=False, italic=False, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None, enumerated=False, marker=''), TextItem(self_ref='#/texts/84', parent=RefItem(cref='#/texts/75'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='', text='', formatting=None, hyperlink=None), TextItem(self_ref='#/texts/85', parent=RefItem(cref='#/texts/75'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[], source=[], comments=[], orig='Generated by create_sample_complex.py  |  Anti-Gravity Pipeline Test Suite', text='Generated by create_sample_complex.py  |  Anti-Gravity Pipeline Test Suite', formatting=Formatting(bold=False, italic=True, underline=False, strikethrough=False, script=<Script.BASELINE: 'baseline'>), hyperlink=None)], pictures=[], tables=[TableItem(self_ref='#/tables/0', parent=RefItem(cref='#/texts/38'), children=[RefItem(cref='#/groups/11'), RefItem(cref='#/groups/12'), RefItem(cref='#/groups/13'), RefItem(cref='#/groups/14')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TABLE: 'table'>, prov=[], source=[], comments=[], captions=[], references=[], footnotes=[], image=None, data=TableData(table_cells=[RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=0, end_col_offset_idx=1, text='Claim ID', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/11')), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=1, end_col_offset_idx=2, text='Policy Holder', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/12')), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=2, end_col_offset_idx=3, text='Type', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/13')), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=3, end_col_offset_idx=4, text='Amount (USD)', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/14')), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=0, end_col_offset_idx=1, text='CLM-001', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=1, end_col_offset_idx=2, text='Alice Johnson', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=2, end_col_offset_idx=3, text='Auto', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=3, end_col_offset_idx=4, text='$4,200', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=0, end_col_offset_idx=1, text='CLM-002', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=1, end_col_offset_idx=2, text='Bob Smith', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=2, end_col_offset_idx=3, text='Health', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=3, end_col_offset_idx=4, text='$11,500', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=0, end_col_offset_idx=1, text='CLM-003', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=1, end_col_offset_idx=2, text='Carol White', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=2, end_col_offset_idx=3, text='Property', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=3, end_col_offset_idx=4, text='$38,000', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=0, end_col_offset_idx=1, text='CLM-004', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=1, end_col_offset_idx=2, text='David Lee', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=2, end_col_offset_idx=3, text='Life', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=3, end_col_offset_idx=4, text='$250,000', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=5, end_row_offset_idx=6, start_col_offset_idx=0, end_col_offset_idx=1, text='CLM-005', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=5, end_row_offset_idx=6, start_col_offset_idx=1, end_col_offset_idx=2, text='Eva Martinez', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=5, end_row_offset_idx=6, start_col_offset_idx=2, end_col_offset_idx=3, text='Travel', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=5, end_row_offset_idx=6, start_col_offset_idx=3, end_col_offset_idx=4, text='$3,750', column_header=False, row_header=False, row_section=False, fillable=False)], num_rows=6, num_cols=4, orientation=<Orientation.ROT_0: 'rot_0'>, grid=[[RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=0, end_col_offset_idx=1, text='Claim ID', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/11')), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=1, end_col_offset_idx=2, text='Policy Holder', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/12')), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=2, end_col_offset_idx=3, text='Type', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/13')), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=3, end_col_offset_idx=4, text='Amount (USD)', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/14'))], [TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=0, end_col_offset_idx=1, text='CLM-001', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=1, end_col_offset_idx=2, text='Alice Johnson', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=2, end_col_offset_idx=3, text='Auto', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=3, end_col_offset_idx=4, text='$4,200', column_header=False, row_header=False, row_section=False, fillable=False)], [TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=0, end_col_offset_idx=1, text='CLM-002', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=1, end_col_offset_idx=2, text='Bob Smith', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=2, end_col_offset_idx=3, text='Health', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=3, end_col_offset_idx=4, text='$11,500', column_header=False, row_header=False, row_section=False, fillable=False)], [TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=0, end_col_offset_idx=1, text='CLM-003', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=1, end_col_offset_idx=2, text='Carol White', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=2, end_col_offset_idx=3, text='Property', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=3, end_col_offset_idx=4, text='$38,000', column_header=False, row_header=False, row_section=False, fillable=False)], [TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=0, end_col_offset_idx=1, text='CLM-004', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=1, end_col_offset_idx=2, text='David Lee', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=2, end_col_offset_idx=3, text='Life', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=3, end_col_offset_idx=4, text='$250,000', column_header=False, row_header=False, row_section=False, fillable=False)], [TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=5, end_row_offset_idx=6, start_col_offset_idx=0, end_col_offset_idx=1, text='CLM-005', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=5, end_row_offset_idx=6, start_col_offset_idx=1, end_col_offset_idx=2, text='Eva Martinez', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=5, end_row_offset_idx=6, start_col_offset_idx=2, end_col_offset_idx=3, text='Travel', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=5, end_row_offset_idx=6, start_col_offset_idx=3, end_col_offset_idx=4, text='$3,750', column_header=False, row_header=False, row_section=False, fillable=False)]]), annotations=[]), TableItem(self_ref='#/tables/1', parent=RefItem(cref='#/texts/45'), children=[RefItem(cref='#/groups/15'), RefItem(cref='#/groups/16'), RefItem(cref='#/groups/17')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TABLE: 'table'>, prov=[], source=[], comments=[], captions=[], references=[], footnotes=[], image=None, data=TableData(table_cells=[RichTableCell(bbox=None, row_span=1, col_span=2, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=0, end_col_offset_idx=2, text='Region & Quarter', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/15')), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=2, end_col_offset_idx=3, text='Q1 Loss %', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/16')), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=3, end_col_offset_idx=4, text='Q2 Loss %', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/17')), TableCell(bbox=None, row_span=2, col_span=1, start_row_offset_idx=1, end_row_offset_idx=3, start_col_offset_idx=0, end_col_offset_idx=1, text='North America', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=1, end_col_offset_idx=2, text='East Coast', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=2, end_col_offset_idx=3, text='62%', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=3, end_col_offset_idx=4, text='67%', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=1, end_col_offset_idx=2, text='West Coast', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=2, end_col_offset_idx=3, text='58%', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=3, end_col_offset_idx=4, text='61%', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=2, col_span=1, start_row_offset_idx=3, end_row_offset_idx=5, start_col_offset_idx=0, end_col_offset_idx=1, text='Europe', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=1, end_col_offset_idx=2, text='UK', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=2, end_col_offset_idx=3, text='55%', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=3, end_col_offset_idx=4, text='59%', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=1, end_col_offset_idx=2, text='Germany', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=2, end_col_offset_idx=3, text='51%', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=3, end_col_offset_idx=4, text='54%', column_header=False, row_header=False, row_section=False, fillable=False)], num_rows=5, num_cols=4, orientation=<Orientation.ROT_0: 'rot_0'>, grid=[[RichTableCell(bbox=None, row_span=1, col_span=2, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=0, end_col_offset_idx=2, text='Region & Quarter', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/15')), RichTableCell(bbox=None, row_span=1, col_span=2, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=0, end_col_offset_idx=2, text='Region & Quarter', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/15')), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=2, end_col_offset_idx=3, text='Q1 Loss %', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/16')), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=3, end_col_offset_idx=4, text='Q2 Loss %', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/17'))], [TableCell(bbox=None, row_span=2, col_span=1, start_row_offset_idx=1, end_row_offset_idx=3, start_col_offset_idx=0, end_col_offset_idx=1, text='North America', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=1, end_col_offset_idx=2, text='East Coast', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=2, end_col_offset_idx=3, text='62%', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=3, end_col_offset_idx=4, text='67%', column_header=False, row_header=False, row_section=False, fillable=False)], [TableCell(bbox=None, row_span=2, col_span=1, start_row_offset_idx=1, end_row_offset_idx=3, start_col_offset_idx=0, end_col_offset_idx=1, text='North America', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=1, end_col_offset_idx=2, text='West Coast', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=2, end_col_offset_idx=3, text='58%', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=3, end_col_offset_idx=4, text='61%', column_header=False, row_header=False, row_section=False, fillable=False)], [TableCell(bbox=None, row_span=2, col_span=1, start_row_offset_idx=3, end_row_offset_idx=5, start_col_offset_idx=0, end_col_offset_idx=1, text='Europe', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=1, end_col_offset_idx=2, text='UK', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=2, end_col_offset_idx=3, text='55%', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=3, end_col_offset_idx=4, text='59%', column_header=False, row_header=False, row_section=False, fillable=False)], [TableCell(bbox=None, row_span=2, col_span=1, start_row_offset_idx=3, end_row_offset_idx=5, start_col_offset_idx=0, end_col_offset_idx=1, text='Europe', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=1, end_col_offset_idx=2, text='Germany', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=2, end_col_offset_idx=3, text='51%', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=3, end_col_offset_idx=4, text='54%', column_header=False, row_header=False, row_section=False, fillable=False)]]), annotations=[]), TableItem(self_ref='#/tables/2', parent=RefItem(cref='#/texts/51'), children=[RefItem(cref='#/groups/18'), RefItem(cref='#/groups/19'), RefItem(cref='#/groups/20'), RefItem(cref='#/groups/21'), RefItem(cref='#/groups/22')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TABLE: 'table'>, prov=[], source=[], comments=[], captions=[], references=[], footnotes=[], image=None, data=TableData(table_cells=[RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=0, end_col_offset_idx=1, text='Product', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/18')), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=1, end_col_offset_idx=2, text='Coverage Details', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/19')), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=2, end_col_offset_idx=3, text='Premium (Monthly)', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/20')), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=0, end_col_offset_idx=1, text='Basic Plan', column_header=False, row_header=False, row_section=False, fillable=False), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=1, end_col_offset_idx=2, text='\\n', column_header=False, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/21')), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=2, end_col_offset_idx=3, text='$150', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=0, end_col_offset_idx=1, text='Premium Plan', column_header=False, row_header=False, row_section=False, fillable=False), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=1, end_col_offset_idx=2, text='\\n', column_header=False, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/22')), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=2, end_col_offset_idx=3, text='$380', column_header=False, row_header=False, row_section=False, fillable=False)], num_rows=3, num_cols=3, orientation=<Orientation.ROT_0: 'rot_0'>, grid=[[RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=0, end_col_offset_idx=1, text='Product', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/18')), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=1, end_col_offset_idx=2, text='Coverage Details', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/19')), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=2, end_col_offset_idx=3, text='Premium (Monthly)', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/20'))], [TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=0, end_col_offset_idx=1, text='Basic Plan', column_header=False, row_header=False, row_section=False, fillable=False), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=1, end_col_offset_idx=2, text='\\n', column_header=False, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/21')), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=2, end_col_offset_idx=3, text='$150', column_header=False, row_header=False, row_section=False, fillable=False)], [TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=0, end_col_offset_idx=1, text='Premium Plan', column_header=False, row_header=False, row_section=False, fillable=False), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=1, end_col_offset_idx=2, text='\\n', column_header=False, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/22')), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=2, end_col_offset_idx=3, text='$380', column_header=False, row_header=False, row_section=False, fillable=False)]]), annotations=[]), TableItem(self_ref='#/tables/3', parent=RefItem(cref='#/groups/21'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TABLE: 'table'>, prov=[], source=[], comments=[], captions=[], references=[], footnotes=[], image=None, data=TableData(table_cells=[TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=0, end_col_offset_idx=1, text='Tier', column_header=True, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=1, end_col_offset_idx=2, text='Limit', column_header=True, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=0, end_col_offset_idx=1, text='Hospital', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=1, end_col_offset_idx=2, text='$50,000', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=0, end_col_offset_idx=1, text='Surgery', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=1, end_col_offset_idx=2, text='$20,000', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=0, end_col_offset_idx=1, text='OPD', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=1, end_col_offset_idx=2, text='$5,000', column_header=False, row_header=False, row_section=False, fillable=False)], num_rows=4, num_cols=2, orientation=<Orientation.ROT_0: 'rot_0'>, grid=[[TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=0, end_col_offset_idx=1, text='Tier', column_header=True, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=1, end_col_offset_idx=2, text='Limit', column_header=True, row_header=False, row_section=False, fillable=False)], [TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=0, end_col_offset_idx=1, text='Hospital', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=1, end_col_offset_idx=2, text='$50,000', column_header=False, row_header=False, row_section=False, fillable=False)], [TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=0, end_col_offset_idx=1, text='Surgery', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=1, end_col_offset_idx=2, text='$20,000', column_header=False, row_header=False, row_section=False, fillable=False)], [TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=0, end_col_offset_idx=1, text='OPD', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=1, end_col_offset_idx=2, text='$5,000', column_header=False, row_header=False, row_section=False, fillable=False)]]), annotations=[]), TableItem(self_ref='#/tables/4', parent=RefItem(cref='#/groups/22'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TABLE: 'table'>, prov=[], source=[], comments=[], captions=[], references=[], footnotes=[], image=None, data=TableData(table_cells=[TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=0, end_col_offset_idx=1, text='Tier', column_header=True, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=1, end_col_offset_idx=2, text='Limit', column_header=True, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=0, end_col_offset_idx=1, text='Hospital', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=1, end_col_offset_idx=2, text='$2,00,000', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=0, end_col_offset_idx=1, text='Critical Ill', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=1, end_col_offset_idx=2, text='$1,00,000', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=0, end_col_offset_idx=1, text='Dental', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=1, end_col_offset_idx=2, text='$15,000', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=0, end_col_offset_idx=1, text='Vision', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=1, end_col_offset_idx=2, text='$8,000', column_header=False, row_header=False, row_section=False, fillable=False)], num_rows=5, num_cols=2, orientation=<Orientation.ROT_0: 'rot_0'>, grid=[[TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=0, end_col_offset_idx=1, text='Tier', column_header=True, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=1, end_col_offset_idx=2, text='Limit', column_header=True, row_header=False, row_section=False, fillable=False)], [TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=0, end_col_offset_idx=1, text='Hospital', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=1, end_col_offset_idx=2, text='$2,00,000', column_header=False, row_header=False, row_section=False, fillable=False)], [TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=0, end_col_offset_idx=1, text='Critical Ill', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=1, end_col_offset_idx=2, text='$1,00,000', column_header=False, row_header=False, row_section=False, fillable=False)], [TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=0, end_col_offset_idx=1, text='Dental', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=1, end_col_offset_idx=2, text='$15,000', column_header=False, row_header=False, row_section=False, fillable=False)], [TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=0, end_col_offset_idx=1, text='Vision', column_header=False, row_header=False, row_section=False, fillable=False), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=1, end_col_offset_idx=2, text='$8,000', column_header=False, row_header=False, row_section=False, fillable=False)]]), annotations=[]), TableItem(self_ref='#/tables/5', parent=RefItem(cref='#/texts/61'), children=[RefItem(cref='#/groups/23'), RefItem(cref='#/groups/24'), RefItem(cref='#/groups/26'), RefItem(cref='#/groups/28')], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TABLE: 'table'>, prov=[], source=[], comments=[], captions=[], references=[], footnotes=[], image=None, data=TableData(table_cells=[RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=0, end_col_offset_idx=1, text='Plan', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/23')), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=1, end_col_offset_idx=2, text='Key Features', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/24')), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=0, end_col_offset_idx=1, text='Silver', column_header=False, row_header=False, row_section=False, fillable=False), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=1, end_col_offset_idx=2, text='\\nHospital cover\\nOPD included\\nNo waiting period', column_header=False, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/26')), TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=0, end_col_offset_idx=1, text='Gold', column_header=False, row_header=False, row_section=False, fillable=False), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=1, end_col_offset_idx=2, text='\\nAll Silver features\\nCritical illness cover\\nInternational emergency\\nAnnual health checkup', column_header=False, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/28'))], num_rows=3, num_cols=2, orientation=<Orientation.ROT_0: 'rot_0'>, grid=[[RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=0, end_col_offset_idx=1, text='Plan', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/23')), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=1, end_col_offset_idx=2, text='Key Features', column_header=True, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/24'))], [TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=0, end_col_offset_idx=1, text='Silver', column_header=False, row_header=False, row_section=False, fillable=False), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=1, end_col_offset_idx=2, text='\\nHospital cover\\nOPD included\\nNo waiting period', column_header=False, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/26'))], [TableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=0, end_col_offset_idx=1, text='Gold', column_header=False, row_header=False, row_section=False, fillable=False), RichTableCell(bbox=None, row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=1, end_col_offset_idx=2, text='\\nAll Silver features\\nCritical illness cover\\nInternational emergency\\nAnnual health checkup', column_header=False, row_header=False, row_section=False, fillable=False, ref=RefItem(cref='#/groups/28'))]]), annotations=[])], key_value_items=[], form_items=[], field_regions=[], field_items=[], pages={})>",
+  "text_blocks_count": 86,
+  "tables": [
+    {
+      "table_index": 0,
+      "caption": null,
+      "page": null,
+      "num_rows": 6,
+      "num_cols": 4,
+      "flattened_records": [
+        {
+          "**Claim ID**": "CLM-001",
+          "**Policy Holder**": "Alice Johnson",
+          "**Type**": "Auto",
+          "**Amount (USD)**": "$4,200"
+        },
+        {
+          "**Claim ID**": "CLM-002",
+          "**Policy Holder**": "Bob Smith",
+          "**Type**": "Health",
+          "**Amount (USD)**": "$11,500"
+        },
+        {
+          "**Claim ID**": "CLM-003",
+          "**Policy Holder**": "Carol White",
+          "**Type**": "Property",
+          "**Amount (USD)**": "$38,000"
+        },
+        {
+          "**Claim ID**": "CLM-004",
+          "**Policy Holder**": "David Lee",
+          "**Type**": "Life",
+          "**Amount (USD)**": "$250,000"
+        },
+        {
+          "**Claim ID**": "CLM-005",
+          "**Policy Holder**": "Eva Martinez",
+          "**Type**": "Travel",
+          "**Amount (USD)**": "$3,750"
+        }
+      ],
+      "raw_cells": [
+        {
+          "text": "Claim ID",
+          "row": 0,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": true
+        },
+        {
+          "text": "Policy Holder",
+          "row": 0,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": true
+        },
+        {
+          "text": "Type",
+          "row": 0,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": true
+        },
+        {
+          "text": "Amount (USD)",
+          "row": 0,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": true
+        },
+        {
+          "text": "CLM-001",
+          "row": 1,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "Alice Johnson",
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "Auto",
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "$4,200",
+          "row": 1,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "CLM-002",
+          "row": 2,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "Bob Smith",
+          "row": 2,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "Health",
+          "row": 2,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "$11,500",
+          "row": 2,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "CLM-003",
+          "row": 3,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "Carol White",
+          "row": 3,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "Property",
+          "row": 3,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "$38,000",
+          "row": 3,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "CLM-004",
+          "row": 4,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "David Lee",
+          "row": 4,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "Life",
+          "row": 4,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "$250,000",
+          "row": 4,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "CLM-005",
+          "row": 5,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "Eva Martinez",
+          "row": 5,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "Travel",
+          "row": 5,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "$3,750",
+          "row": 5,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "table_index": 1,
+      "caption": null,
+      "page": null,
+      "num_rows": 5,
+      "num_cols": 4,
+      "flattened_records": [
+        {
+          "**Region &amp; Quarter**": "East Coast",
+          "**Q1 Loss %**": "62%",
+          "**Q2 Loss %**": "67%"
+        },
+        {
+          "**Region &amp; Quarter**": "West Coast",
+          "**Q1 Loss %**": "58%",
+          "**Q2 Loss %**": "61%"
+        },
+        {
+          "**Region &amp; Quarter**": "UK",
+          "**Q1 Loss %**": "55%",
+          "**Q2 Loss %**": "59%"
+        },
+        {
+          "**Region &amp; Quarter**": "Germany",
+          "**Q1 Loss %**": "51%",
+          "**Q2 Loss %**": "54%"
+        }
+      ],
+      "raw_cells": [
+        {
+          "text": "Region & Quarter",
+          "row": 0,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 2,
+          "is_header": true
+        },
+        {
+          "text": "Q1 Loss %",
+          "row": 0,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": true
+        },
+        {
+          "text": "Q2 Loss %",
+          "row": 0,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": true
+        },
+        {
+          "text": "North America",
+          "row": 1,
+          "col": 0,
+          "row_span": 2,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "East Coast",
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "62%",
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "67%",
+          "row": 1,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "West Coast",
+          "row": 2,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "58%",
+          "row": 2,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "61%",
+          "row": 2,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "Europe",
+          "row": 3,
+          "col": 0,
+          "row_span": 2,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "UK",
+          "row": 3,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "55%",
+          "row": 3,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "59%",
+          "row": 3,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "Germany",
+          "row": 4,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "51%",
+          "row": 4,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "54%",
+          "row": 4,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "table_index": 2,
+      "caption": null,
+      "page": null,
+      "num_rows": 3,
+      "num_cols": 3,
+      "flattened_records": [
+        {
+          "**Product**": "Basic Plan",
+          "**Coverage Details**": "| Tier     | Limit   |\n|----------|---------|\n| Hospital | $50,000 |\n| Surgery  | $20,000 |\n| OPD      | $5,000  |",
+          "**Premium (Monthly)**": "$150"
+        },
+        {
+          "**Product**": "Premium Plan",
+          "**Coverage Details**": "| Tier         | Limit     |\n|--------------|-----------|\n| Hospital     | $2,00,000 |\n| Critical Ill | $1,00,000 |\n| Dental       | $15,000   |\n| Vision       | $8,000    |",
+          "**Premium (Monthly)**": "$380"
+        }
+      ],
+      "raw_cells": [
+        {
+          "text": "Product",
+          "row": 0,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": true
+        },
+        {
+          "text": "Coverage Details",
+          "row": 0,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": true
+        },
+        {
+          "text": "Premium (Monthly)",
+          "row": 0,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": true
+        },
+        {
+          "text": "Basic Plan",
+          "row": 1,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "\n",
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "$150",
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "Premium Plan",
+          "row": 2,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "\n",
+          "row": 2,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "$380",
+          "row": 2,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "table_index": 3,
+      "caption": null,
+      "page": null,
+      "num_rows": 4,
+      "num_cols": 2,
+      "flattened_records": [
+        {
+          "Tier": "Hospital",
+          "Limit": "$50,000"
+        },
+        {
+          "Tier": "Surgery",
+          "Limit": "$20,000"
+        },
+        {
+          "Tier": "OPD",
+          "Limit": "$5,000"
+        }
+      ],
+      "raw_cells": [
+        {
+          "text": "Tier",
+          "row": 0,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": true
+        },
+        {
+          "text": "Limit",
+          "row": 0,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": true
+        },
+        {
+          "text": "Hospital",
+          "row": 1,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "$50,000",
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "Surgery",
+          "row": 2,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "$20,000",
+          "row": 2,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "OPD",
+          "row": 3,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "$5,000",
+          "row": 3,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "table_index": 4,
+      "caption": null,
+      "page": null,
+      "num_rows": 5,
+      "num_cols": 2,
+      "flattened_records": [
+        {
+          "Tier": "Hospital",
+          "Limit": "$2,00,000"
+        },
+        {
+          "Tier": "Critical Ill",
+          "Limit": "$1,00,000"
+        },
+        {
+          "Tier": "Dental",
+          "Limit": "$15,000"
+        },
+        {
+          "Tier": "Vision",
+          "Limit": "$8,000"
+        }
+      ],
+      "raw_cells": [
+        {
+          "text": "Tier",
+          "row": 0,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": true
+        },
+        {
+          "text": "Limit",
+          "row": 0,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": true
+        },
+        {
+          "text": "Hospital",
+          "row": 1,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "$2,00,000",
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "Critical Ill",
+          "row": 2,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "$1,00,000",
+          "row": 2,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "Dental",
+          "row": 3,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "$15,000",
+          "row": 3,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "Vision",
+          "row": 4,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "$8,000",
+          "row": 4,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "table_index": 5,
+      "caption": null,
+      "page": null,
+      "num_rows": 3,
+      "num_cols": 2,
+      "flattened_records": [
+        {
+          "**Plan**": "Silver",
+          "**Key Features**": "- Hospital cover\n- OPD included\n- No waiting period"
+        },
+        {
+          "**Plan**": "Gold",
+          "**Key Features**": "- All Silver features\n- Critical illness cover\n- International emergency\n- Annual health checkup"
+        }
+      ],
+      "raw_cells": [
+        {
+          "text": "Plan",
+          "row": 0,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": true
+        },
+        {
+          "text": "Key Features",
+          "row": 0,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": true
+        },
+        {
+          "text": "Silver",
+          "row": 1,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "\nHospital cover\nOPD included\nNo waiting period",
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "Gold",
+          "row": 2,
+          "col": 0,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        },
+        {
+          "text": "\nAll Silver features\nCritical illness cover\nInternational emergency\nAnnual health checkup",
+          "row": 2,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1,
+          "is_header": false
+        }
+      ]
+    }
+  ],
+  "images": []
+}
