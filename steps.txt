@@ -20,3 +20,16 @@ View the logs: To check if the FastAPI server started successfully or to view an
 
 bash
 docker logs -f docx-pipeline-app
+
+
+pandoc alone:
+
+# 1. Create a fresh virtual environment
+uv venv .venv-pandoc
+# (On Windows, activate it: .venv-pandoc\Scripts\activate)
+
+# 2. Install only the lean dependencies
+uv pip install fastapi "uvicorn[standard]" python-multipart pypandoc pillow boto3 python-dotenv
+
+# 3. Run the Pandoc-only app
+uv run uvicorn pandoc_app:app --host 127.0.0.1 --port 8001 --reload
