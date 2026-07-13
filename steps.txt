@@ -1,0 +1,22 @@
+Here are the commands you need to build and run your Docker container for the document pipeline.
+
+1. Build the Docker Image
+First, make sure you are in the project directory (f:\Other\docx-pipeline). Run the following command to build the image and tag it as docx-pipeline:
+
+bash
+docker build -t docx-pipeline .
+
+2. Run the Docker Container
+Once the image is built, you can run it. Since your app exposes port 8001 and uses an .env file for AWS credentials or other configurations, use the following command:
+
+bash
+docker run -d --name docx-pipeline-app -p 8001:8001 --env-file .env docx-pipeline
+-d: Runs the container in the background (detached mode).
+--name: Assigns the name docx-pipeline-app to your container so you can easily reference it later.
+-p 8001:8001: Maps port 8001 on your local machine to port 8001 in the container.
+--env-file .env: Injects your environment variables into the container.
+Helpful Commands for Managing the Container
+View the logs: To check if the FastAPI server started successfully or to view any errors:
+
+bash
+docker logs -f docx-pipeline-app
