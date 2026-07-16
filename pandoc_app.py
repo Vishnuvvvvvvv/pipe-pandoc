@@ -16,7 +16,7 @@ app = FastAPI(
     description="Converts .doc/.docx files to Markdown using Pandoc.",
     version="1.0.0",
 )
-
+//cors exten's
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
