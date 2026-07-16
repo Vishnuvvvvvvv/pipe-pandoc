@@ -19,7 +19,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     tesseract-ocr \
     libgl1 \
     libglib2.0-0 \
-    libreoffice \
+    libreoffice \\
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
