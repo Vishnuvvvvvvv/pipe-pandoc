@@ -1,4 +1,4 @@
-"""
+"""kk
 pandoc_app.py
 ─────────────
 Lean FastAPI app — mounts ONLY the pandoc pipeline router.
